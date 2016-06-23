@@ -1,6 +1,12 @@
 import { Component } from '@angular/core';
+import { ClickMeComponent }    from './click-me.component';
+import { NavTopComponent }    from './nav-top.component';
+
 @Component({
   selector: 'my-app',
-  template: '<h1>My First Angular 2 App</h1>'
+  templateUrl:'app/app.component.html',
+  directives: [
+	  ClickMeComponent, NavTopComponent
+  ]
 })
 export class AppComponent { }

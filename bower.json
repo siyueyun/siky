@@ -1,0 +1,25 @@
+{
+  "name": "Siky",
+  "description": "",
+  "main": "",
+  "authors": [
+    "drmfly <contact@idrmfly.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "app/bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap-datepicker": "^1.6.0",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.37"
+  },
+  "private": true
+}
